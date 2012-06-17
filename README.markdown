@@ -4,6 +4,10 @@ OpenResty Benchmark
 Just curious about how OpenResty compares to other things. I'd
 like to add a Node server, and maybe Sinatra and PHP, and I dunno.
 
+Tested using [http_load](http://www.acme.com/software/http_load/) with
+the configuration `http_load -p 10 -s 5 url` (each directory has a url file.)
+
+
 OpenResty
 ---------
 OpenResty is a Lua-based web application server for Nginx.
